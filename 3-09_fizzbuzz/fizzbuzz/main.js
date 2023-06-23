@@ -1,7 +1,7 @@
 console.log('test')
 
 function FizzBuzz (num) {
-    if(num % 3 === 0 && num % 5 ===0){
+    if((num % 3 === 0) && (num % 5 ===0)){
         return 'FizzBuzz!';
     }else if (num % 3 ===0){
         return 'Fizz!';
@@ -10,7 +10,5 @@ function FizzBuzz (num) {
     }else {
         return num;
     }
-
-
 }
-console.log(FizzBuzz(5));
+console.log(FizzBuzz(3));
