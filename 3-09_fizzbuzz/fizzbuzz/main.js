@@ -12,7 +12,7 @@ function FizzBuzz (num) {
     }
 }
 
-let i =1;
+let i = 1;
 while(i <= 10000){
     console.log(FizzBuzz(i))
     i += 1;
