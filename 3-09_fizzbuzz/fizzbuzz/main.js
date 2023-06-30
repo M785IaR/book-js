@@ -11,4 +11,11 @@ function FizzBuzz (num) {
         return num;
     }
 }
-console.log(FizzBuzz(3));
+
+let i =1;
+while(i <= 10000){
+    console.log(FizzBuzz(i))
+    i += 1;
+}
+
+//「+=」か、「++」どちらでもOK
